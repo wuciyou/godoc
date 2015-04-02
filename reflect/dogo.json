@@ -1,0 +1,6 @@
+{
+    "WorkingDir": "{GOPATH}/src/github.com/wuciyou/godoc/reflect",
+    "SourceExt": ".go",
+    "BuildCmd": "go build {GOPATH}/src/github.com/wuciyou/godoc/reflect/makefunc.go",
+    "RunCmd": "{GOPATH}/src/github.com/wuciyou/godoc/reflect/makefunc"
+}
