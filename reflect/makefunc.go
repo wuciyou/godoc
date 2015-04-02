@@ -10,7 +10,7 @@ type User struct {
 	Password string
 }
 
-func (u *User) string() *User {
+func (u *User) String() *User {
 	fmt.Printf("Username:%s Password:%s \n", u.Username, u.Password)
 	return u
 }
@@ -33,8 +33,8 @@ func main() {
 		fmt.Println(funname + "fewfew")
 		return true
 	})
-	elem.MethodByName("Usernames").Call([]reflect.Value{})
-	user.string()
+	v.MethodByName("String").Call(nil)
+	user.String()
 	// fmt.Println(v.Kind())
 
 	// fmt.Println("fewfewfdsfs")
