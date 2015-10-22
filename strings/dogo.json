@@ -1,0 +1,6 @@
+{
+    "WorkingDir": "{GOPATH}/src/github.com/wuciyou/godoc/strings",
+    "SourceExt": ".go",
+    "BuildCmd": "go build {GOPATH}/src/github.com/wuciyou/godoc/strings/strings.go",
+    "RunCmd": "{GOPATH}/src/github.com/wuciyou/godoc/strings/strings"
+}
